@@ -30,7 +30,7 @@ public class CalculadoraTest {
 
 	@Test
 	public void testeSoma() {
-		int resultado = calculadora.soma(3, 4);
+		int resultado = calculadora.soma(4, 4);
 
 		assertEquals(7, resultado);
 	}
@@ -38,24 +38,12 @@ public class CalculadoraTest {
 	@Test
 	public void testeDivisao() {
 		try {
-			int resultado = calculadora.divisao(10, 2);
+			int resultado = calculadora.divisao(10, 0);
 
 			assertEquals(5, resultado);
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
 		}
-	}
-
-	@Test(expected = Exception.class)
-	public void testeDivisaoException() throws Exception {
-		calculadora.divisao(0, 0);
-	}
-	
-	@Test(expected = AssertionError.class)
-	public void testeSubtracao() {
-		int resultado = 10 - 3;
-
-		assertTrue(resultado == 1);
 	}
 
 }
