@@ -38,7 +38,7 @@ public class CalculadoraTest {
 	@Test
 	public void testeDivisao() {
 		try {
-			int resultado = calculadora.divisao(10, 0);
+			int resultado = calculadora.divisao(10, 2);
 
 			assertEquals(5, resultado);
 		} catch (Exception e) {
