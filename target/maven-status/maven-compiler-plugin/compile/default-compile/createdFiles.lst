@@ -1,1 +1,4 @@
-com\mycompany\app\App.class
+com\mycompany\app\ICalculadora.class
+com\javacodegeeks\examples\junitmavenexample\Calculator.class
+com\javacodegeeks\examples\junitmavenexample\ICalculator.class
+com\mycompany\app\Calculadora.class
