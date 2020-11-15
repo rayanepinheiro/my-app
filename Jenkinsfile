@@ -9,7 +9,7 @@ pipeline {
         }
         stage('---test---') {
             steps {
-                bat "mvn teste"
+                bat "mvn test"
             }
         }
         stage('---package---') {
