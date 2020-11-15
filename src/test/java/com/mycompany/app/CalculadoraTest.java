@@ -30,7 +30,7 @@ public class CalculadoraTest {
 
 	@Test
 	public void testeSoma() {
-		int resultado = calculadora.soma(4, 4);
+		int resultado = calculadora.soma(3, 4);
 
 		assertEquals(8, resultado);
 	}
