@@ -20,7 +20,7 @@ public class CalculadoraTest {
 
 	@Before
 	public void antesDeCadaTeste() {
-		System.out.println("Isso é executado antes de cada teste");
+		System.out.println("Isso é executado antes de cada teste")
 	}
 
 	@After
@@ -30,7 +30,7 @@ public class CalculadoraTest {
 
 	@Test
 	public void testeSoma() {
-		int resultado = calculadora.soma(3, 4);
+		int resultado = calculadora.soma(4, 4);
 
 		assertEquals(8, resultado);
 	}
