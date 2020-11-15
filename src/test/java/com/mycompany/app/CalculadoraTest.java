@@ -20,7 +20,7 @@ public class CalculadoraTest {
 
 	@Before
 	public void antesDeCadaTeste() {
-		System.out.println("Isso é executado antes de cada teste")
+		System.out.println("Isso é executado antes de cada teste");
 	}
 
 	@After
